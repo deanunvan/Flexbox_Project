@@ -1,0 +1,395 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav{
+    position: absolute;
+    z-index: 1;
+    left: 92%;
+}
+
+#home-section{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg-masthead.jpg);
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.outer-box{
+    background-color: rgba(128, 128, 128, 0.582);
+    width: 60px;
+    height: 70px;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 23px;
+    border-radius: 5px;
+}
+
+.line1{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 20px;
+}
+
+.line2{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 20px;
+    margin-top: 6px;
+}
+
+.line3{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 20px;
+    margin-top:6px ;
+}
+
+
+.head1{
+    margin-left: 380px;
+    margin-top: 250px;
+    font-size: 80px;
+}
+
+.text1{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.button1{
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    background-color: rgb(0, 140, 158);
+    padding: 2px;
+    width: 150px;
+    height: 50px;
+    margin-left: 600px;
+    .find-out-more{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.button1:hover{
+    background-color: blue;
+}
+
+#second-section{
+    width: 100%;
+    height: 60vh;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.head2{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.text2{
+    margin-left: 220px;
+    font-size: 20px;
+}
+
+.button2{
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    background-color: rgb(102, 102, 102);
+    padding: 2px;
+    width: 150px;
+    height: 50px;
+    margin-left: 585px;
+    margin-top: 30px;
+    .What-We-Offer{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.button2:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+span{
+    color: blue;
+}
+
+#services-section{
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(6, 142, 160);
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.head3{
+    color: rgb(255, 217, 0);
+    margin-left: 600px;
+    margin-top: 60px;
+}
+
+.text3{
+    color: white;
+    margin-left: 483px;
+    font-size: 50px;
+} 
+
+.services{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h4{
+    color: wheat;
+
+}
+
+.responsive{
+    text-align: center;
+}
+
+.redesigned{
+    text-align: center;
+}
+
+.favorited{
+    text-align: center;
+}
+
+.question{
+    text-align: center;
+}
+
+.para{
+    color: white;
+    font-weight: lighter;
+}
+
+#welcome-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/bg-callout.jpg);
+    float: left;
+    background-size: cover;
+    background-position: center;  
+}
+
+.head4{
+    margin-top: 150px;
+    margin-left: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button3{
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    background-color: rgb(0, 140, 158);
+    padding: 2px;
+    width: 150px;
+    height: 50px;
+    margin-left: 585px;
+    margin-top: 30px;
+    .download-now{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.button3:hover{
+    background-color: blue;
+}
+
+.head5{
+    color: rgb(255, 217, 0);
+    margin-left: 600px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.text5{
+    margin-left: 510px;
+    font-size: 38px;
+}
+
+#portfolio-section{
+    width: 100%;
+    height: 130vh;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.box1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: none;
+   height: 300px;
+   margin-top: 30px;
+}
+
+.pic1{
+    background-image: url(./images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    padding-top: 180px;
+}
+
+.pic2{
+    background-image: url(./images/portfolio-2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    padding-top: 180px;
+}
+
+.stationary{
+    color: white;
+    font-size: 10px;
+}
+
+.pencil{
+    color: white;
+    font-weight: lighter;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: none;
+    height: 300px;
+ }
+ 
+ .pic3{
+     background-image: url(./images/portfolio-3.jpg);
+     background-size: cover;
+     background-position: center;
+     padding: 48px;
+     padding-top: 180px;
+ }
+ 
+ .pic4{
+     background-image: url(./images/portfolio-4.jpg);
+     background-size: cover;
+     background-position: center;
+     padding: 48px;
+     padding-top: 180px;
+ }
+ 
+ .stationary{
+     color: white;
+     font-size: 10px;
+ }
+ 
+ .pencil{
+     color: white;
+     font-weight: lighter;
+ }
+
+ #buttons{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 140, 158);
+    float: left;
+ }
+
+ .click{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+ }
+
+ .button4{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 2px;
+    padding-top: 11px;
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    .click-me{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.button4:hover{
+    background-color: grey;
+}
+
+.button5{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    padding: 2px;
+    padding-top: 11px;
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    .look-at-me{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.button5:hover{
+    background-color: grey;
+}
+
+.head6{
+    margin-left: 320px;
+    margin-top: 100px;
+    color: white;
+}
+
+#map{
+    width: 100%;
+    height: 80vh;
+    float: left;
+    background-image: url(./images/Capture\ map.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    height: 45vh;
+    float: left;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 500px;
+}
+
+.copyright{
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-left: 550px;
+}
